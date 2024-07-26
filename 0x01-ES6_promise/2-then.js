@@ -8,5 +8,7 @@ export default function handleResponseFromAPI(promise) {
         body: 'success',
       };
     })
-    .catch(() => Error())
+    .catch(() => Error());
+
+  return res;
 }
