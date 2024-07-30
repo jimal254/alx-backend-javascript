@@ -1,3 +1,3 @@
-export default function hasValuesFromArray(arr, idx) {
-  return idx.every(value => arr.has(value));
+export default function hasValuesFromArray(set, array) {
+  return array.every((value) => set.has(value));
 }
